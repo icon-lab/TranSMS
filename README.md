@@ -1,6 +1,8 @@
 # TranSMS
 Official Implementation of Transformers for System Matrix Super-resolution (TranSMS)
 
+A. Güngör, B. Askin, D. A. Soydan, E. U. Saritas, C. B. Top and T. Çukur, "TranSMS: Transformers for Super-Resolution Calibration in Magnetic Particle Imaging," in IEEE Transactions on Medical Imaging, 2022, doi: 10.1109/TMI.2022.3189693.
+
 # Demo
 You can use the following links to download training, validation, test datasets. 
 
@@ -17,6 +19,22 @@ Use below for multicoil inference:
 # Dataset
 - ASELSAN dataset: https://drive.google.com/drive/folders/1_n8JynaPRQcPmu4TwYF6x6zOFPqLYlx8?usp=sharing
 - OpenMPI dataset: https://magneticparticleimaging.github.io/OpenMPIData.jl/latest/
+
+**************************************************************************************************************************************
+# Citation
+You are encouraged to modify/distribute this code. However, please acknowledge this code and cite the paper appropriately.
+```
+@article{transms,
+  author={Gungor, Alper and Askin, Baris and Soydan, Damla Alptekin and Saritas, Emine Ulku and Top, Can Baris; and Cukur, Tolga},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={TranSMS: Transformers for Super-Resolution Calibration in Magnetic Particle Imaging}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TMI.2022.3189693}}
+```
+(c) ICON Lab 2022
 
 # Prerequisites
 
