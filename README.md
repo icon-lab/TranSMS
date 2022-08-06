@@ -18,7 +18,7 @@ Generic training code code:
 
 ```python checkTranSMSAselFFLTrain.py --useGPUno 0 --wd 0 --lr 1e-4 --scale_factor 2 --snrThreshold 5 --useNoisyProjection 1 --bs 64 --resultFolder . --n1 32 --n2 32 --trainFolder ./train --testFolder ./val```
 
-useGPUno: Selected GPU
+```useGPUno: Selected GPU
 wd: weight decay, default is 0
 lr: learning rate
 scale_factor: 2, 4, 8, etc.
@@ -29,7 +29,7 @@ resultFolder: path for saving model outputs
 n1: SM dimension x
 n2: SM dimension y
 trainFolder: folder containing training SMs
-testFolder: folder containing validation SMs
+testFolder: folder containing validation SMs```
 
 # Code for Open MPI dataset
 
@@ -47,14 +47,14 @@ Code for inference using all trained networks:
 
 ```python inferenceOnOpenMPI.py --useGPUno 0 --bs 256 --n1 32 --n2 32 --modelFolder ./outs/ --saveOutFolder ./results/ --testFolder ./test --interpolationMatrixPath interpolaters.mat```
 
-useGPUno: Selected GPU
+```useGPUno: Selected GPU
 bs: batch size during inference
 n1: SM dimension x
 n2: SM dimension y
 modelFolder: folder containing trained networks
 saveOutFolder: path for saving "mat" file outputs
 testFolder: folder containing test SMs
-interpolationMatrixPath: path containing the interpolation matrix from 4x4, 8x8, 16x16 to 32x32, for fast interpolation purposes
+interpolationMatrixPath: path containing the interpolation matrix from 4x4, 8x8, 16x16 to 32x32, for fast interpolation purposes```
 
 **************************************************************************************************************************************
 # Citation
