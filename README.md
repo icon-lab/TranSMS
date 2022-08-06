@@ -29,7 +29,8 @@ resultFolder: path for saving model outputs
 n1: SM dimension x
 n2: SM dimension y
 trainFolder: folder containing training SMs
-testFolder: folder containing validation SMs```
+testFolder: folder containing validation SMs
+```
 
 # Code for Open MPI dataset
 
@@ -54,7 +55,8 @@ n2: SM dimension y
 modelFolder: folder containing trained networks
 saveOutFolder: path for saving "mat" file outputs
 testFolder: folder containing test SMs
-interpolationMatrixPath: path containing the interpolation matrix from 4x4, 8x8, 16x16 to 32x32, for fast interpolation purposes```
+interpolationMatrixPath: path containing the interpolation matrix from 4x4, 8x8, 16x16 to 32x32, for fast interpolation purposes
+```
 
 **************************************************************************************************************************************
 # Citation
