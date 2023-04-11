@@ -7,10 +7,10 @@ A. Güngör, B. Askin, D. A. Soydan, E. U. Saritas, C. B. Top and T. Çukur, "Tr
 You can use the following links to download training, validation, test datasets. 
 
 # Dataset
-https://drive.google.com/drive/folders/1Zru6u-GmxPUktAFB41sCIEQEgZEwHKcf?usp=sharing
+https://drive.google.com/drive/folders/1MvLouN4Jl1gg-Uj3PMYrq2sIw-bw_HeF?usp=sharing
 
 # Pretrained Networks:
-https://drive.google.com/drive/folders/1jJs-9kDkzHTpVsoGSgdYjzihXPt9Lkef?usp=sharing
+https://drive.google.com/drive/folders/1LkElq3pQS_G_mu56lCwFgvwFysknrNXU?usp=share_link
 
 # Training
 
